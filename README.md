@@ -21,7 +21,7 @@ There are three variants for partitioning.
 * `noniid-label1`: each participant has 1 label
 
 ## Run Federated Learning
-To simulate the large cohorts of clients, we leverage `Ray` following [the code examples provided by Flower.](https://github.com/adap/flower/tree/main/examples/simulation_pytorch)
+To simulate the large cohorts of clients, we leverage `Ray` following [the code examples provided by Flower.](https://github.com/adap/flower/blob/main/e2e/e2e-pytorch/simulation.py)
 ```
 . ./run_fedfog.sh {fog_partitions} {client_partitions}
 . ./run_fml.sh {fog_partitions} {client_partitions} {alpha} {beta}
